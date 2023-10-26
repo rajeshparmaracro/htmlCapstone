@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | AutoMob-Mechanic App</title>
+</head>
+<body >
+    <header>
+        <h3>AutoMob-Mechanic</h3>
+        <nav >
+            <p>
+            <a href="./home.html">Home </a> |
+            <a href="./services.html">Service </</a> |
+            <a href="./booking.html">Booking</</a> |
+            <a href="mailto:contact@automobile.in?Subject=Hello%20again">contact@automobile.in &#128231</a> |
+            <a href="tel:+9999999999">999 999 9999  &#9743</a></p> 
+            </nav>
+    </header>
+
+    <h2>Shedule your appointment</h2>
+	<form method="post" action="./booking-success.html">
+    Appointment Date: <input type="date">
+    <br><br>
+    Address:
+    <textarea rows="5" cols="40" maxlength="100" required></textarea>
+    <br><br>
+    City:
+    <input type="text" placeholder="Mumbai, Pune..." required>
+    <br><br>
+    State:
+    <input list="State">
+    <datalist id="State">
+        <option value="Assam ">
+        <option value="Bihar">
+        <option value="Gujarat">
+        <option value="Goa">
+        <option value=" etc.">
+    </datalist>
+    <br><br>
+    Send Notification:
+    <input type="checkbox" value="Email">Email
+    <input type="checkbox" value="Sms">Sms
+    <br><br><br>
+    
+		<button>
+			<input type="submit" name="submit" value="Book">
+		</button>
+   <br><br><br>
+   </form>
+    <footer>
+        Copyright &copy; 2020 AutoMob-Mechanic. All rights Reserved.
+    </footer>
+</body>
+</html>

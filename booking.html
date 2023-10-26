@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Care | AutoMob-Mechanic</title>
+</head>
+
+<body>
+    <header>
+        <h3>AutoMob-Mechanic</h3>
+        <nav>
+            <p>
+                <a href="./home.html">Home </a> |
+                <a href="./services.html">Service </< /a> |
+                    <a href="./booking.html">Booking</< /a> |
+                        <a href="mailto:contact@automobile.in?Subject=Hello%20again">contact@automobile.in &#128231</a> |
+                        <a href="tel:+9999999999">999 999 9999 &#9743</a>
+            </p>
+        </nav>
+    </header>
+
+    <h2>Book Your Service</h2>
+    <form method="post" action="./appointment.html">
+
+        <label>Name:</label>
+        <input type="text" id="First name" name="First name" placeholder="First Name" required>
+        <input type="text" id="Middle name" name="Middle name" placeholder="Middle name">
+        <input type="text" id="Last name" name="Last name" placeholder="Last name" required>
+        <br>
+        <br>
+        <label>Email Id:</label>
+        <input type="email" id="email" name="email" placeholder="type your email Here" required autofill>
+
+        <br>
+        <br>
+        <label>Phone Number:</label>
+        Country code: <select>
+            <option value=""> code</option>
+            <option value="+213">+213</option>
+            <option value="+91">+91</option>
+            <option value="+244">+244</option>
+            <option value="+61">+61</option>
+            <option value="+973">+973</option>
+        </select>
+        <input type="number" id="contact" name="contact" placeholder="type your mible number Here" required>
+
+        <br><br>
+        Select Service:
+        <select>
+            <option value="Preventive Maintenance Service">Preventive Maintenance Service</option>
+            <option value="Body Repair Service">Body Repair Service</option>
+            <option value="Car care service">Car care service</option>
+        </select>
+
+        <br>
+        <br>
+        <label>Car Maker:</label>
+        Country: <input list="CarMake">
+        <datalist id="CarMake">
+            <option value="Mahindra">
+            <option value="Honda">
+            <option value="Hyundai">
+            <option value="Ford">
+            <option value="Toyota ">
+        </datalist>
+        <br>
+        <br>
+        <label>Car Model:</label>
+        <input type="text" placeholder="Alto, Innova" />
+
+        <label>Fuel Type:</label>
+        <input type="radio" value="Petrol" />Petrol
+        <input type="radio" value="Diesel" />Diesel
+        <input type="radio" value="LPG" />LPG
+        <input type="radio" value="Others" />Others
+        <br><br>
+        <label>Kilometers Ran:</label>
+        <input type="text" placeholder="...Km" />
+        <br><br><br>
+        <button type="submit">Book Service</button>
+      
+    </form>
+
+     
+        <br><br><br><br>
+        <footer>
+            Copyright &copy; 2020 AutoMob-Mechanic. All rights Reserved.
+        </footer>
+</body>
+
+</html>
